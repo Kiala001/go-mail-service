@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+{{ template "content" . }}
+</body>
+</html>
+
+templates/welcome.html
+
+{{ define "content" }}
+<h1>Bem-vindo {{ .Name }}</h1>
+{{ end }}
